@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.corpo{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.Calc{
+    background-color: rgb(73, 68, 68);
+    height: 560px;
+    width: 450px;
+padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.display{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tela{
+    height:123px;
+    width: 100%;
+}
+.logica{
+    background-color: rgb(255, 0, 0) ;
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.numeros{
+    background-color: black ;
+    height: 40vh;
+    width: 75%;
+    /* display:inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bnt-num{
+    height: 17.5%;
+    width: 50%;
+}
+.btn-logica{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bnt-log{
+    height: 105px;
+    width:50%;
+}
