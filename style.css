@@ -30,9 +30,14 @@ padding: 5px;
     justify-content: center;
     flex-direction: column;
 }
-.tela{
+.visor{
+    background-color: wheat;
     height:123px;
     width: 100%;
+    font: normal 25pt arial;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 .logica{
     background-color: rgb(255, 0, 0) ;
@@ -50,11 +55,12 @@ padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 .bnt-num{
     height: 17.5%;
-    width: 50%;
+    width: 30%;
 }
 .btn-logica{
     width: 25%;
@@ -63,7 +69,7 @@ padding: 5px;
     justify-content: center;
     flex-wrap: wrap;
 }
-.bnt-log{
+.bnt-log1{
     height: 105px;
     width:50%;
 }
