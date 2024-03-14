@@ -28,7 +28,7 @@
 }
 .fundo:hover{
     background-color: rgba(0, 0, 0, 0.774);
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .display{
@@ -36,10 +36,11 @@
     height: 5em;
     width: 13.5em;
     border-radius: 10px 0px 10px 0px;
+    padding: 10px;
+    font: normal 15pt arial; 
     display: flex;
     align-items: center;
     justify-content: end;
-    padding: 10px;
 
 }
 .display:hover{
@@ -49,8 +50,8 @@
 .botoes{
     background-color: rgba(131,58,180,1);
     color: white;
-    height: 50px;
-    width: 51px;
+    height: 65px;
+    width: 65px;
     margin: 1.1px;
     border: none;
     border-radius: 15px;
