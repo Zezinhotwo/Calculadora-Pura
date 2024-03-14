@@ -1,6 +1,8 @@
 Projeto calculado sem Eval(funcation)
+
 LINK PARA USO: https://zezinhotwo.github.io/Calculadora-Pura/
-calculado esta calculando apenas valores de unidace de 0-9
+
+a calculadora esta calculando apenas valores de unidace de 0-9
 no entando estou trabalhando em melhorias no codigo e funcoes
 mas ainda nao conheceço o meios nescessario para finalizar 
 atualmente ela esta com vario bugs 
