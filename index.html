@@ -9,39 +9,45 @@
 </head>
 
 <body>
-    <div class="corpo">
-        <div class="Calc">
-            <div class="display">
-                <!-- <input class="tela" type="number" name="" id=""> -->
-                <div class="visor"></div>
-            </div>
-            <div class="logica">
-                <div class="numeros">
-                    <input class="bnt-num" type="button" value="4">
-                    <input class="bnt-num" type="button" value="5">
-                    <input class="bnt-num" type="button" value="7">
-                    <input class="bnt-num" type="button" value="8">
-                    <input class="bnt-num" type="button" value="6">
-                    <input class="bnt-num" type="button" value="9">
-                    <input class="bnt-num" type="button" value="3">
-                    <input class="bnt-num" type="button" value="2">
-                    <input class="bnt-num" type="button" value="1">
-                    <input class="bnt-num" type="button" value="0">
-                    <input class="bnt-num" type="button" value=".">
-                </div>
-                <div class="btn-logica">
-                    <input class="bnt-log1" id="clear" type="button" value="C">
-                    <input class="bnt-log1" id="clear1" type="button" value="<X">
-
-                    <input class="bnt-log bnt-log1" id=""  type="button" value="+">
-                    <input class="bnt-log bnt-log1" id=""  type="button" value="-">
-                    <input class="bnt-log bnt-log1" id=""  type="button" value="/">
-                    <input class="bnt-log bnt-log1" id=""  type="button" value="*">
-                    <input class="bnt-log1" id="result"  type="button" value="=">
-                </div>
-            </div>
+    <div class="calc">
+        <div class="fundo">
+                    <p class="display"></p>
+                    <table>
+                        <tr>
+                            <td><button class="botoes op">C</button></td>
+                            <td><button class="botoes op">
+                                    < </button>
+                            </td>
+                            <td><button class="botoes op">/</button></td>
+                            <td><button class="botoes op">x</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="botoes">7</button></td>
+                            <td><button class="botoes">8</button></td>
+                            <td><button class="botoes">9</button></td>
+                            <td><button class="botoes op">-</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="botoes">4</button></td>
+                            <td><button class="botoes">5</button></td>
+                            <td><button class="botoes">6</button></td>
+                            <td><button class="botoes op">+</button></td>
+                        </tr>
+                        <tr>
+                            <td><button class="botoes">1</button></td>
+                            <td><button class="botoes">2</button></td>
+                            <td><button class="botoes">3</button></td>
+                            <td rowspan="2"><button class="botoes op" style="height: 104px;">=</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><button class="botoes" style="width: 106px;">0</button></td>
+                            <td><button class="botoes">.</button></td>
+                        </tr>
+                    </table>
+                    <footer class="copy"><p>Kaio Gonçalves &copy;</p></footer>
         </div>
     </div>
+
     <script src="app.js"></script>
 </body>
 
