@@ -14,7 +14,9 @@ class Calc {
     $digitos() {
         const $display = document.querySelector(".result");
         document.querySelector("table").addEventListener("click", (event) => {
+            // pega a this si ela tiver "td" tag cai do IF
             if (event.target.matches("td")) {
+                // pega o conteudo da tag "td" alvo
                 const valor = event.target.textContent;
 
                 // Limpa o exemplo inicial ou o display se "C" for clicado
