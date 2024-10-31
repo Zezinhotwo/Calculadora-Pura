@@ -6,7 +6,8 @@ a calculadora esta calculando apenas valores de unidace de 0-9 POIS NAO ESTOU UI
 no entando estou trabalhando em melhorias no codigo e funcoes
 mas ainda nao conheceço o meios nescessario para finalizar 
 atualmente DÊ UMA CHANCE E USE-A
-![image](https://github.com/Zezinhotwo/Calculadora-Pura/assets/107373132/c0f28649-ef8e-426a-9d13-7c2b0d4e95bc)
+![image](https://github.com/user-attachments/assets/6c3f898a-58f4-4175-907d-72af41501409)
 Essa é a logica que eu decidir usar para fazer esta calculadora 
-![image](https://github.com/Zezinhotwo/Calculadora-Pura/assets/107373132/a827b748-226b-43cf-a24f-132b06704140)
+![image](https://github.com/user-attachments/assets/4abd088a-05c4-4ddc-ae56-408464506fa9)
+
 
